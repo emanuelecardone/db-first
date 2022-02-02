@@ -4,8 +4,8 @@ ID - INT - PRIMARY_KEY(NOTNULL, UNIQUE,INDEX) - AUTO_INCREMENT
 license_plate - VARCHAR(15) - NOTNULL - UNIQUE - INDEX
 brand - VARCHAR(15) - NOTNULL
 model - VARCHAR(15) - NOTNULL
+engine - VARCHAR(20) - NULL
 sale_date - DATETIME - NOTNULL
-seller_full_name - VARCHAR(30) - NOTNULL
 status_description - VARCHAR(100) - NULL
 original_price - DECIMAL(10,2) - NULL
 current_price - DECIMAL(10,2) - NOTNULL
